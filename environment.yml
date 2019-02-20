@@ -1,0 +1,45 @@
+name: env_name
+channels:
+- fastai
+- pytorch
+- defaults
+- peterjc123
+- conda-forge
+- Quantopian
+dependencies:
+- scipy
+- numpy
+- pillow
+- jpeg
+- ipykernel
+- ipython
+- ipython_genutils
+- ipywidgets
+- jedi
+- jinja2
+- jsonschema
+- jupyter
+- jupyter_client
+- jupyter_console
+- jupyter_core
+- matplotlib=2.2.3
+- nbformat
+- notebook
+- pandas
+- pandocfilters
+- pip
+- python>=3.6.0
+- python-dateutil
+- setuptools
+- statsmodels
+- testfixtures
+- testpath>=0.4.2
+- bcolz
+- prompt_toolkit
+#- pytest
+- pip:
+  - isoweek
+  - pandas_summary
+  - sklearn_pandas
+  - kaggle-cli
+  - scikit-misc
